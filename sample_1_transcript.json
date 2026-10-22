@@ -1,0 +1,92 @@
+{
+  "file": "Sample1.mp3",
+  "model": "auto",
+  "models_used": [
+    "large-v3"
+  ],
+  "audio_normalized": true,
+  "requested_language": "auto",
+  "languages": [
+    "en"
+  ],
+  "duration_seconds": 53.184,
+  "text": "Good morning everyone. Right now we are living through one of the most exciting chapters in human history. The rise of artificial intelligence. longer just a concept from science fiction movies, it is actively reshaping how we work, learn and create. From helping doctors, diagnosis diseases, fast... to solving complex climate data. AI is proving that to be the ultimate assistant. But as this technology grows more powerful, the most important question... isn't what AI can do alone, it's what we can do when we partner with it. AI gives us the data but humans provide the empathy, the ethics. and the creativity creativity the future is not about ai replacing us it's about a emphasis amplifying us let's embrace this tool to be smarter more connected world",
+  "segments": [
+    {
+      "start": 1.2,
+      "end": 10.4,
+      "text": "Good morning everyone. Right now we are living through one of the most exciting chapters in human history. The rise of artificial intelligence."
+    },
+    {
+      "start": 11.2,
+      "end": 15.16,
+      "text": "longer just a concept from science fiction movies, it is actively"
+    },
+    {
+      "start": 15.16,
+      "end": 20.4,
+      "text": "reshaping how we work, learn and create. From helping doctors, diagnosis diseases,"
+    },
+    {
+      "start": 20.4,
+      "end": 23.24,
+      "text": "fast..."
+    },
+    {
+      "start": 21.2,
+      "end": 23.2,
+      "text": "to solving complex climate data."
+    },
+    {
+      "start": 23.2,
+      "end": 26.2,
+      "text": "AI is proving that to be the ultimate assistant."
+    },
+    {
+      "start": 26.2,
+      "end": 29.2,
+      "text": "But as this technology grows more powerful,"
+    },
+    {
+      "start": 29.2,
+      "end": 31.2,
+      "text": "the most important question..."
+    },
+    {
+      "start": 31.2,
+      "end": 37.2,
+      "text": "isn't what AI can do alone, it's what we can do when we partner with it."
+    },
+    {
+      "start": 37.2,
+      "end": 41.2,
+      "text": "AI gives us the data but humans provide the empathy, the ethics."
+    },
+    {
+      "start": 41.2,
+      "end": 46.72,
+      "text": "and the creativity creativity the future is not about ai replacing us it's about a"
+    },
+    {
+      "start": 46.72,
+      "end": 51.2,
+      "text": "emphasis amplifying us let's embrace this tool to be smarter more"
+    },
+    {
+      "start": 51.2,
+      "end": 53.184,
+      "text": "connected world"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0.0,
+      "end": 53.184,
+      "language": "en",
+      "model": "large-v3",
+      "language_probability": 0.9087,
+      "speech_seconds": 51.984
+    }
+  ],
+  "warnings": []
+}

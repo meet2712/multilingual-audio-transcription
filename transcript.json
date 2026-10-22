@@ -1,0 +1,92 @@
+{
+  "file": "Sample_2.mp3",
+  "model": "tiny",
+  "models_used": [
+    "tiny"
+  ],
+  "audio_normalized": true,
+  "requested_language": "auto",
+  "languages": [
+    "pt"
+  ],
+  "duration_seconds": 57.045,
+  "text": "sub-provado, hoje é um abraço e quem tem, são pati, adreque, são aí visevado, carvava a mango de um. são diversas jovens pelacas morais. Se a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fort porque o que virita a cariacia? Gumavel, paisa, pacha, mervisa, peranto. Vite gala o tamanho que arrepacho a autônati. Vio que arrepacho a autônati. Vio que arrepacho a autônati. Vio que arrepacho a autônati. Vio que arrepacho a autônati. para na geogia, bananao, mota a suena joa, saca a menadcarro, a na directe a secane, kim, mat, samjo. Apa!",
+  "segments": [
+    {
+      "start": 0.37,
+      "end": 6.79,
+      "text": "sub-provado, hoje é um abraço e quem tem, são pati, adreque,"
+    },
+    {
+      "start": 6.79,
+      "end": 9.39,
+      "text": "são aí visevado, carvava a mango de um."
+    },
+    {
+      "start": 10.37,
+      "end": 14.37,
+      "text": "são diversas jovens pelacas morais."
+    },
+    {
+      "start": 14.37,
+      "end": 24.37,
+      "text": "Se a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fortale, nem a fort"
+    },
+    {
+      "start": 24.37,
+      "end": 26.37,
+      "text": "porque o que virita a cariacia?"
+    },
+    {
+      "start": 26.37,
+      "end": 34.37,
+      "text": "Gumavel, paisa, pacha, mervisa, peranto."
+    },
+    {
+      "start": 34.37,
+      "end": 37.37,
+      "text": "Vite gala o tamanho que arrepacho a autônati."
+    },
+    {
+      "start": 37.37,
+      "end": 38.37,
+      "text": "Vio que arrepacho a autônati."
+    },
+    {
+      "start": 38.37,
+      "end": 39.37,
+      "text": "Vio que arrepacho a autônati."
+    },
+    {
+      "start": 39.37,
+      "end": 40.37,
+      "text": "Vio que arrepacho a autônati."
+    },
+    {
+      "start": 40.37,
+      "end": 43.37,
+      "text": "Vio que arrepacho a autônati."
+    },
+    {
+      "start": 44.37,
+      "end": 54.13,
+      "text": "para na geogia, bananao, mota a suena joa, saca a menadcarro, a na directe a secane, kim, mat, samjo."
+    },
+    {
+      "start": 54.37,
+      "end": 56.37,
+      "text": "Apa!"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0.0,
+      "end": 57.045,
+      "language": "pt",
+      "model": "tiny",
+      "language_probability": 0.3745,
+      "speech_seconds": 56.677
+    }
+  ],
+  "warnings": []
+}

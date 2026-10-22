@@ -19,6 +19,22 @@ SPECIALIST_MODELS = {
 }
 
 
+def get_ffmpeg_executable():
+    """Use FFmpeg on PATH, or the project-installed bundled executable."""
+    executable = shutil.which("ffmpeg")
+    if executable:
+        return executable
+    try:
+        import imageio_ffmpeg
+
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except ImportError as exc:
+        raise RuntimeError(
+            "FFmpeg is missing. Install it and add it to PATH, or install "
+            "the project's requirements.txt."
+        ) from exc
+
+
 def get_audio_path(file_name):
     path = Path(file_name).expanduser().resolve()
     if not path.is_file():
@@ -37,8 +53,7 @@ def normalize_language(value):
 def transcribe_audio(
     audio_path, language=None, model_name="auto", use_vad=True, normalize_audio=True
 ):
-    if not shutil.which("ffmpeg"):
-        raise RuntimeError("FFmpeg is missing. Install it and add it to PATH.")
+    ffmpeg = get_ffmpeg_executable()
 
     transcript = []
     chunks_info = []
@@ -70,7 +85,7 @@ def transcribe_audio(
 
     with TemporaryDirectory() as folder:
         command = [
-            "ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error",
+            ffmpeg, "-nostdin", "-hide_banner", "-loglevel", "error",
             "-xerror", "-i", str(audio_path), "-map", "0:a:0", "-vn",
         ]
         if normalize_audio:

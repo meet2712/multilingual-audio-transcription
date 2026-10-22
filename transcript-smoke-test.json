@@ -1,0 +1,82 @@
+{
+  "file": "Sample1.mp3",
+  "model": "tiny",
+  "models_used": [
+    "tiny"
+  ],
+  "audio_normalized": true,
+  "requested_language": "en",
+  "languages": [
+    "en"
+  ],
+  "duration_seconds": 53.184,
+  "text": "Good morning everyone. Right now we are living through one of the most exciting chapters in human history. The rise of artificial intelligence, AI is not... longer just to concept from science, fiction, movies. It is actively reshipping how we work, learn and breathe. From helping doctors, diagnosis, is fast to solving complex climate data, AI is proving that to be the ultimate assistant, but as this technology grows more powerful, most important question, is it what AI can do along? It's what we can do when we partner we take AI gives us the data, but human towards empathy. ethics and the creativity. The feature is not about AI replacing us. It's about AI impulse and amplifying us. Let's embrace this tool. built smarter, more connected world.",
+  "segments": [
+    {
+      "start": 1.2,
+      "end": 7.2,
+      "text": "Good morning everyone. Right now we are living through one of the most exciting chapters in human history."
+    },
+    {
+      "start": 7.2,
+      "end": 11.2,
+      "text": "The rise of artificial intelligence, AI is not..."
+    },
+    {
+      "start": 11.2,
+      "end": 15.2,
+      "text": "longer just to concept from science, fiction, movies. It is actively"
+    },
+    {
+      "start": 15.2,
+      "end": 20.0,
+      "text": "reshipping how we work, learn and breathe. From helping doctors, diagnosis,"
+    },
+    {
+      "start": 20.0,
+      "end": 26.0,
+      "text": "is fast to solving complex climate data, AI is proving that to be the ultimate"
+    },
+    {
+      "start": 26.0,
+      "end": 30.0,
+      "text": "assistant, but as this technology grows more powerful, most"
+    },
+    {
+      "start": 30.0,
+      "end": 36.48,
+      "text": "important question, is it what AI can do along? It's what we can do when we partner"
+    },
+    {
+      "start": 36.48,
+      "end": 40.0,
+      "text": "we take AI gives us the data, but human towards empathy."
+    },
+    {
+      "start": 40.0,
+      "end": 46.4,
+      "text": "ethics and the creativity. The feature is not about AI replacing us. It's about"
+    },
+    {
+      "start": 46.4,
+      "end": 50.0,
+      "text": "AI impulse and amplifying us. Let's embrace this tool."
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "built smarter, more connected world."
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0.0,
+      "end": 53.184,
+      "language": "en",
+      "model": "tiny",
+      "language_probability": null,
+      "speech_seconds": 51.984
+    }
+  ],
+  "warnings": []
+}
